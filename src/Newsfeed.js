@@ -22,7 +22,7 @@ class Newsfeed extends Component {
                     action: "View"
                 },
                 {
-                    text: "62 Westmoreland St.\nMissing rent from Julia",
+                    text: "62 Castlefield Woods\nMissing rent from Julia",
                     date: "5 days ago",
                     action: "View"
                 },
@@ -32,27 +32,22 @@ class Newsfeed extends Component {
                     action: "View"
                 },
                 {
-                    text: "62 Westmoreland St.\nPrice alert",
+                    text: "62 Castlefield Woods\nPrice alert",
                     date: "05/02/2019",
                     action: "View"
                 },
             ],
             properties: [
                 {
-                    name: "1 Terrace.",
+                    name: "62 Castlefield Woods, Clonsilla",
                     image: "a.jpg",
                     alerts: 0
                 },
                 {
-                    name: "1 Terrace.",
+                    name: "32 Killarney St, Dublin",
                     image: "b.jpg",
                     alerts: 3
                 },
-                {
-                    name: "1 Terrace.",
-                    image: "c.jpg",
-                    alerts: 0
-                }
             ]
         }
     }
