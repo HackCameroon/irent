@@ -7,13 +7,9 @@ class Property extends Component {
     render() {
         return (
             <div className="col-md-4">
-                <div className="card mb-4">
-                    <img class="card-img-top" src={`/${this.props.image}.jpg`} alt="Card image cap" />
-                    <div className="card-body">
-                        <h4>Jensen McCallister</h4>
-                        <a href="#" class="btn btn-primary">Open</a>
-                    </div>
-                </div>
+                <h5>{this.props.data.name}</h5>
+                <img class="card-img-top mb-4" src={`/${this.props.data.image}`} alt="Card image cap" />
+                <div className="btn btn-outline-primary">Open</div>
             </div>
         );
     }
