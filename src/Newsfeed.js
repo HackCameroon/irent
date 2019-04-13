@@ -11,7 +11,7 @@ class Newsfeed extends Component {
         this.state = {
             news: [
                 {
-                    text: "32 Killarney St.\nFridge issue: door is not closing anymore",
+                    text: "32 Killarney St.\nWashing machine issue: not starting anymore",
                     date: "Yest. at 17:25",
                     action: "Resolve",
                     link: "/maintenance",
