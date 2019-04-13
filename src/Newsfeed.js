@@ -36,6 +36,23 @@ class Newsfeed extends Component {
                     date: "05/02/2019",
                     action: "View"
                 },
+            ],
+            properties: [
+                {
+                    name: "1 Terrace.",
+                    image: "a.jpg",
+                    alerts: 0
+                },
+                {
+                    name: "1 Terrace.",
+                    image: "b.jpg",
+                    alerts: 3
+                },
+                {
+                    name: "1 Terrace.",
+                    image: "c.jpg",
+                    alerts: 0
+                }
             ]
         }
     }
@@ -43,6 +60,11 @@ class Newsfeed extends Component {
         return (
             <div>
                 <h1>Properties</h1>
+                <div className="row">
+                    {this.state.properties.map((property) => (
+                        <Property data={property} />
+                    ))}
+                </div>
                 <h1>Feed</h1>
                 <div class="col-md-6 offset-md-3">
                     {this.state.news.map((news) => (
