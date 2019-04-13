@@ -4,6 +4,7 @@ import './App.scss';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Newsfeed from './Newsfeed';
 import PropertyDetails from './PropertyDetails';
+import GeneralDetails from './GeneralDetails';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           <div>
             <Route path="/" exact component={Newsfeed} />
             <Route path="/property" exact component={PropertyDetails} />
+            <Route path="/general" exact component={GeneralDetails} />
           </div>
         </Router>
       </div>

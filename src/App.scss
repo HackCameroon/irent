@@ -16,3 +16,72 @@ h5 {
 body {
   padding-top: 3em;
 }
+
+.normal-font {
+  font-family: "IBM Plex Sans";
+}
+
+.clickable {
+  cursor: pointer;
+  padding: 1em 0.5em;
+  border-radius: 5px;
+  &:hover {
+    background-color: #eee;
+  }
+}
+
+.issue {
+  background-color: #ff851b;
+  color: white;
+}
+.ub-logo {
+  width: 10em;
+  display: block;
+  margin-bottom: 1em;
+}
+.icon {
+  width: 4em;
+  height: 4em;
+  border-radius: 100px;
+  margin: 1em;
+}
+.plumber-row {
+  display: flex;
+  align-items: center;
+}
+.property {
+  width: 10em;
+  height: 10em;
+  border-radius: 1em;
+}
+.p-1 {
+  background: url("/a.jpg");
+  background-size: cover;
+}
+.p-2 {
+  background: url("/b.jpg");
+  background-size: cover;
+}
+.p-3 {
+  background: #eee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  i {
+    font-size: 2em;
+  }
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3em;
+  color: #888;
+}
+.badge {
+  position: relative;
+  margin-right: -2em;
+  top: -1.4em !important;
+  padding: 0.3em 0.5em;
+}

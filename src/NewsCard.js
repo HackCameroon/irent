@@ -11,7 +11,7 @@ class NewsCard extends Component {
                 <div className="card-body">
                     <p><strong>{this.props.data.date}</strong></p>
                     <p>{this.props.data.text}</p>
-                    <div className="btn btn-outline-primary">{this.props.data.action}</div>
+                    <Link to={this.props.data.link} className="btn btn-outline-primary">{this.props.data.action}</Link>
                 </div>
             </div>
         );
