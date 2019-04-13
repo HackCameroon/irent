@@ -11,28 +11,28 @@ class Newsfeed extends Component {
         this.state = {
             news: [
                 {
-                    text: "Issue with fridge.",
-                    date: "1 day ago",
+                    text: "32 Killarney St.\nFridge issue: door is not closing anymore",
+                    date: "Yest. at 17:25",
                     action: "Resolve",
                     link: "/maintenance",
                 },
                 {
-                    text: "Tax returns completed.",
+                    text: "Accounting\nTax returns due next week",
                     date: "3 days ago",
                     action: "View"
                 },
                 {
-                    text: "Julia has not paid her rent for 1 Terrace.",
+                    text: "62 Westmoreland St.\nMissing rent from Julia",
                     date: "5 days ago",
                     action: "View"
                 },
                 {
-                    text: "Insurance needs to be renewed.",
+                    text: "32 Killarney St.\nInsurance renewal due in three weeks",
                     date: "12/02/2019",
                     action: "View"
                 },
                 {
-                    text: "Price alert for your property, 1 Terrace.",
+                    text: "62 Westmoreland St.\nPrice alert",
                     date: "05/02/2019",
                     action: "View"
                 },
