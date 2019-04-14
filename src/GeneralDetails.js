@@ -80,9 +80,9 @@ class GeneralDetails extends Component {
                                 loader={<div>Loading Chart</div>}
                                 data={[
                                     ['Year', 'Income', 'Expenses', 'Tax'],
-                                    ['2016', 14360, 8928, 3344],
-                                    ['2017', 15680, 9114, 3414],
-                                    ['2018', 16000, 9300, 3484],
+                                    ['2016', 14360, -8928, -3344],
+                                    ['2017', 15680, -9114, -3414],
+                                    ['2018', 16000, -9300, -3484],
                                 ]}
                                 options={{
 
