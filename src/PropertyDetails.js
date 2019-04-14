@@ -89,7 +89,7 @@ class PropertyDetails extends Component {
         return (
             <div>
                 <Link to="/" className="btn btn-light"><i className="mdi mdi-chevron-left" />Back</Link>
-                <h1>1 Terrace Pl.</h1>
+                <h1>32 Killarney St.  </h1>
                 <div className="container mt-4">
                     <div className="row clickable" onClick={this.expand.bind(this)}>
                         <h2><i className="mdi mdi-wrench" /> Maintenance <i className="mdi mdi-chevron-down float-right" /></h2>

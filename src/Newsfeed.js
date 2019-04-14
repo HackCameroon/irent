@@ -11,7 +11,7 @@ class Newsfeed extends Component {
         this.state = {
             news: [
                 {
-                    text: "32 Killarney St.\nWashing machine issue: not starting anymore",
+                    text: <span className="text-danger"><i className="mdi mdi-alert-circle-outline" /> 32 Killarney St. Washing machine issue: not starting anymore</span>,
                     date: "Yesterday at 17:25",
                     action: "Resolve",
                     link: "/property",
@@ -69,7 +69,7 @@ class Newsfeed extends Component {
     render() {
         return (
             <div>
-                <div className="offset-md-3 mb-4">
+                <div className="offset-md-2 mb-4">
                     <h1>Properties</h1>
                 </div>
                 <div className="row">
@@ -83,10 +83,10 @@ class Newsfeed extends Component {
                         <i className="mdi mdi-chevron-right" />
                     </div>
                 </div>
-                <div className="offset-md-3 mb-4 mt-4 col-md-8">
+                <div className="offset-md-2 mb-4 mt-4 col-md-8">
                     <h1>Feed</h1>
                 </div>
-                <div class="col-md-6 offset-md-3">
+                <div class="col-md-8 offset-md-2">
                     {this.state.news.map((news) => (
                         <NewsCard data={news} />
                     ))}
