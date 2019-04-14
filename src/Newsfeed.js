@@ -14,34 +14,39 @@ class Newsfeed extends Component {
                     text: <span className="text-danger"><i className="mdi mdi-alert-circle-outline" /> 32 Killarney St. Washing machine issue: not starting anymore</span>,
                     date: "Yesterday at 17:25",
                     action: "Resolve",
+                    backgroundColor: "#ff9999",
                     link: "/property",
                 },
                 {
-                    text: "Accounting\nTax returns due next week",
+                    text1: "Accounting",
+                    text2: "Tax returns due next week",
                     date: "3 days ago",
                     action: "View",
-
+                    backgroundColor: "#ffbf80",
                     link: "/property",
                 },
                 {
-                    text: "62 Castlefield Woods\nMissing rent from Julia",
+                    text1: "62 Castlefield Woods",
+                    text2: "Missing rent from Julia",
                     date: "5 days ago",
                     action: "View",
-
+                    backgroundColor: "#ffbf80",
                     link: "/property",
                 },
                 {
-                    text: "32 Killarney St.\nInsurance renewal due in three weeks",
+                    text1: "32 Killarney St.",
+                    text2: "Insurance renewal due in three weeks",
                     date: "12/02/2019",
                     action: "View",
-
+                    backgroundColor: "#adebad",
                     link: "/property",
                 },
                 {
-                    text: "62 Castlefield Woods\nPrice alert",
+                    text1: "62 Castlefield Woods",
+                    text2: "Price alert",
                     date: "05/02/2019",
                     action: "View",
-
+                    backgroundColor: "#adebad",
                     link: "/property",
                 },
             ],
