@@ -22,14 +22,12 @@ class GeneralDetails extends Component {
             transactions_in.push({
                 num: "ULSBIE2D" + getRandomInt(11111111, 99999999),
                 status: "",
-                person: (getRandomInt(1, 100) > 80 ? `/plumber${getRandomInt(1, 3)}.png` : "")
             })
         }
         for (let i = 0; i < 20; i++) {
             transactions_out.push({
                 num: "ULSBIE2D" + getRandomInt(11111111, 99999999),
                 status: "",
-                person: (getRandomInt(1, 100) > 80 ? `/plumber${getRandomInt(2, 3)}.png` : "")
             })
         }
         console.log(transactions_in)
