@@ -7,9 +7,11 @@ import Property from './Property';
 class NewsCard extends Component {
     render() {
         return (
-            <div className="card mb-4">
-                <div className="card-body" style={{backgroundColor: this.props.data.backgroundColor}}>
-                    <p><strong>{this.props.data.date}</strong></p>
+            <div className="card mb-4" style={{ borderColor: this.props.data.backgroundColor }}>
+                <div className="card-body" style={{ backgroundColor: this.props.data.backgroundColor }}>
+                    <strong>{this.props.data.date}</strong>
+                </div>
+                <div className="card-body">
                     <p><i>{this.props.data.text1}</i></p>
                     <p>{this.props.data.text2}</p>
                     <Link to={this.props.data.link} className="btn btn-outline-primary">{this.props.data.action}</Link>

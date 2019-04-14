@@ -71,12 +71,11 @@ class GeneralDetails extends Component {
         if (this.state.expanded) {
             details = <div className="card">
                 <div style={{ backgroundColor: '#ffa31a' }} className="card-body issue">
-                    <strong><h3><i className="mdi mdi-calendar-clock" /> Time to generate your annual tax return</h3></strong>
+                    <h3 className="normal-font"><i className="mdi mdi-calendar-clock" /> Time to generate your annual tax return</h3>
                 </div>
                 <div className="card-body">
                     <div className="row">
                         <div className="col-md-6">
-                            <div> <h3><strong> Historical Financial Summary </strong></h3></div>
                             <Chart
                                 height={300}
                                 chartType="ColumnChart"
@@ -97,7 +96,6 @@ class GeneralDetails extends Component {
                             />
                         </div>
                         <div className="col-md-6">
-                            <div> <h3><strong> 2018 oveview </strong></h3></div>
                             <div className="row">
                                 <div className="col-md-6 mb-4">
                                     <h1>€550,000</h1>

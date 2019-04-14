@@ -11,7 +11,8 @@ class Newsfeed extends Component {
         this.state = {
             news: [
                 {
-                    text: <span className="text-danger"><i className="mdi mdi-alert-circle-outline" /> 32 Killarney St. Washing machine issue: not starting anymore</span>,
+                    text1: "32 Killarney St.",
+                    text2: "Washing machine issue: not starting anymore",
                     date: "Yesterday at 17:25",
                     action: "Resolve",
                     backgroundColor: "#ff9999",
