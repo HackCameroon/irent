@@ -92,13 +92,26 @@ body {
   padding: 0.3em 0.5em;
 }
 .navbar-icon {
-  height: 1em;
+  height: 1.5em;
 }
 .icon-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+.navbar {
+  font-size: 1.4em;
+}
 body {
   margin-top: 4em;
+}
+.navbar-collapse > .container {
+  display: flex;
+  justify-content: space-between;
+}
+.price {
+  font-size: 1.5em;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1em;
 }

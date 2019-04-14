@@ -53,7 +53,7 @@ class PropertyDetails extends Component {
                         <div className="col-md-6">
                             <div className="card">
                                 <div className="card-body issue-resolve">
-                                    <h4 className="normal-font">Schedule a repair</h4>
+                                    <h4 className="normal-font">Repair options</h4>
                                 </div>
                                 <div className="card-body">
                                     {this.state.plumbers.map((plumber) => (
@@ -74,21 +74,25 @@ class PropertyDetails extends Component {
                                 </div>
                                 <div className="card-body">
                                     <div className="card mb-4">
-                                        <div> <img height="90" width="90" src="washingmachine.jpg" /> We found you an exact replacement</div>
-                                        <div> <img height="90" width="180" src="amazon_logo.png" className="amazon-logo" /> <h1><strong>500€</strong></h1></div>
+                                        <div className="card-body">
+                                            <div>We found you an exact replacement</div>
+                                            <div className="price"> <img height="30" src="amazon_logo.png" className="amazon-logo d-inline-block" /> €550</div>
+
+                                            <div className="btn btn-outline-dark mt-4">See Details</div>
+                                        </div>
                                     </div>
                                     <div className="card mb-4">
                                         <div className="card-body">
                                             <img src="/ulsterbank-logo.gif" className="ub-logo" />
-                                            <div><i className="mdi mdi-check" />You're preapproved for an Ulster Bank loan</div>
-                                            <div style={{ backgroundColor: '#c6ffb3' }}> <h1><strong> 4% APR </strong> </h1></div>
+                                            <div>You're preapproved for an Ulster Bank loan</div>
+                                            <div ><h3>4% APR</h3></div>
                                             <div className="btn btn-outline-dark mt-4">Purchase Now</div>
                                         </div>
                                     </div>
                                     <div className="card">
                                         <div className="card-body">
-                                            <h5 className="normal-text"><strong>Savings fund</strong></h5>
-                                            <div><i className="mdi mdi-check" />You have the following amount in your account</div>
+                                            <h5>Savings fund</h5>
+                                            <div>You have the following amount in your account</div>
                                             <div ><h3>€252.92</h3></div>
                                             <div className="btn btn-outline-dark mt-4">Top up savings</div>
                                         </div>
